@@ -18,4 +18,4 @@ def phone_logger(data):
 
 def describtion_logger(data):
     with open('log.csv', 'a', encoding='utf-8') as file:
-        file.write('describtion: {}\n'.format(data))
+        file.write('describtion: {}.\n'.format(data))

@@ -12,4 +12,4 @@ def phone_txt(data):
 
 def describtion_txt(data):
     with open('dir.txt', 'a', encoding='utf-8') as file:
-        file.write('describtion: {}\n\n'.format(data))
+        file.write('describtion: {}.\n\n'.format(data))
